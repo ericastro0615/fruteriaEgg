@@ -1,3 +1,5 @@
+package entidades;
+
 public class FrutaClass {
 
     private String nombre;
@@ -65,5 +67,17 @@ public class FrutaClass {
 
     public void setPeso(Double peso) {
         this.peso = peso;
+    }
+
+    @Override
+    public String toString() {
+        return "FrutaClass{" +
+                "nombre='" + nombre + '\'' +
+                ", forma='" + forma + '\'' +
+                ", color='" + color + '\'' +
+                ", sabor='" + sabor + '\'' +
+                ", tamanio='" + tamanio + '\'' +
+                ", peso=" + peso +
+                '}';
     }
 }
